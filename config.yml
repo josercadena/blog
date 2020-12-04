@@ -40,7 +40,7 @@ params:
     images: "<link or path of image for opengraph, twitter-cards>"
 
     ShowReadingTime: true
-    ShowShareButtons: true
+    ShowShareButtons: false
     comments: false
     defaultTheme: light
     disableThemeToggle: true
