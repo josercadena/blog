@@ -1,90 +1,71 @@
-baseURL: "https://josercadena.com"
+---
+baseURL: https://josercadena.com
 title: josercadena
 paginate: 5
 theme: hugo-PaperMod
-publishDir: "docs"
-
+publishDir: docs
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
 googleAnalytics: UA-123-45
-
 minify:
-    disableXML: true
-    minifyOutput: true
-
+  disableXML: true
+  minifyOutput: true
 languages:
   en:
-    languageName: "English"
+    languageName: English
     weight: 1
     menu:
       main:
-        - name: Archive
-          url: archives
-          weight: 5
-        - name: Tags
-          url: tags/
-          weight: 10
-
+      - name: Archive
+        url: archives
+        weight: 5
+      - name: Tags
+        url: tags/
+        weight: 10
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: josercadena
-    description: "crafting software with dotnet"
-    author: Me
-    # author: ["Me", "You"] # multiple authors
-    cover: 
-      responsiveImages: true
-
-    images: "<link or path of image for opengraph, twitter-cards>"
-
-    ShowReadingTime: true
-    ShowShareButtons: false
-    comments: false
-    defaultTheme: light
-    disableThemeToggle: true
-    disableSpecial1stPost: false
-
-    assets:
-        favicon: "<link / abs url>"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
-
-    label:
-        text: " ▲ "
-        icon: 
-        iconHeight: 35
-
-    # profile-mode
-    profileMode:
-        enabled: false # needs to be explicitly set
-        title: ExampleSite
-        # imageUrl: '<img location>'
-        # imageTitle: my image
-        buttons:
-            - name: Posts
-              url: posts
-            - name: Tags
-              url: tags
-
-    # home-info mode
-    homeInfoParams:
-        Title: "Hallo, Jose here! \U0001F44B"
-        Content: I'm a passionate coffee drinker and software crafter
-
-    socialIcons:
-        - name: github
-          url: "https://github.com/josercadena"
-        - name: twitter
-          url: "https://twitter.com/josercadena"
-        - name: linkedin
-          url: "https://www.linkedin.com/in/josercadena/"
-        
-        
-
-    analytics:
-        google:
-            SiteVerificationTag: "XYZabc"
+  env: production
+  title: josercadena
+  description: crafting software with dotnet
+  author: Me
+  cover:
+    responsiveImages: true
+  images: "<link or path of image for opengraph, twitter-cards>"
+  ShowReadingTime: true
+  ShowShareButtons: false
+  comments: false
+  defaultTheme: light
+  disableThemeToggle: true
+  disableSpecial1stPost: false
+  assets:
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+  label:
+    text: " ▲ "
+    icon: 
+    iconHeight: 35
+  profileMode:
+    enabled: false
+    title: ExampleSite
+    buttons:
+    - name: Posts
+      url: posts
+    - name: Tags
+      url: tags
+  homeInfoParams:
+    Title: "Hallo, Jose here! \U0001F44B"
+    Content: I'm a passionate coffee drinker and software crafter
+  socialIcons:
+  - name: github
+    url: https://github.com/josercadena
+  - name: twitter
+    url: https://twitter.com/josercadena
+  - name: linkedin
+    url: https://www.linkedin.com/in/josercadena/
+  analytics:
+    google:
+      SiteVerificationTag: XYZabc
